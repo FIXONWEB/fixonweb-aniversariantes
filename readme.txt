@@ -1,4 +1,4 @@
-=== FIXONWEB - Anivesariantes ===
+=== FIXONWEB - Aniversariantes ===
 Contributors: fixonweb
 Donate link: https://fixonweb.com.br/donate/
 Tags: comments, spam
