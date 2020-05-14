@@ -25,3 +25,10 @@ add_action('wp_enqueue_scripts', "fix158949_enqueue_scripts");
 function fix158949_enqueue_scripts(){
     wp_enqueue_script( 'jquery-validate-min', plugin_dir_url( __FILE__ ) . '/js/jquery.validate.min.js', array( 'jquery' )  );
 }
+
+require 'fix_001940_get_md_rows.php';
+require "fnn-001940";
+require "fnn-001940_b";
+require "fnn-001940-modulos";
+
+
