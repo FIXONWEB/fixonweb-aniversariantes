@@ -26,9 +26,9 @@ function fix158949_enqueue_scripts(){
     wp_enqueue_script( 'jquery-validate-min', plugin_dir_url( __FILE__ ) . '/js/jquery.validate.min.js', array( 'jquery' )  );
 }
 
-require 'fix_001940_get_md_rows.php';
-require "fnn-001940";
-require "fnn-001940_b";
-require "fnn-001940-modulos";
+// require 'src/001/fix_001940_get_md_rows.php';
+// require "src/001/fnn-001940";
+// require "src/001/fnn-001940_b";
+// require "src/001/fnn-001940-modulos";
 
 
