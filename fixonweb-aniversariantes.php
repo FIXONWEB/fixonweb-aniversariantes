@@ -26,4 +26,4 @@ function fix158949_enqueue_scripts(){
     wp_enqueue_script( 'jquery-validate-min', plugin_dir_url( __FILE__ ) . '/js/jquery.validate.min.js', array( 'jquery' )  );
 }
 
-require "src/fixonweb-db-utilit.php";
+require plugin_dir_path( __FILE__ )."src/fixonweb-db-utilit.php";
